@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.4.7 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.9 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -446,6 +446,45 @@ video {
   display: none;
 }
 
+@font-face {
+  font-family: "Inter";
+
+  font-style: normal;
+
+  font-weight: 400;
+
+  font-display: swap;
+
+  src: local(Inter),
+      url(/assets/fonts/static/Inter-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Inter";
+
+  font-style: normal;
+
+  font-weight: 500;
+
+  font-display: swap;
+
+  src: local(Inter),
+      url(/assets/fonts/static/Inter-SemiBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Inter";
+
+  font-style: normal;
+
+  font-weight: 700;
+
+  font-display: swap;
+
+  src: local(Inter),
+      url(/assets/fonts/static/Inter-Bold.ttf) format("truetype");
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -552,4 +591,8 @@ video {
   --tw-contain-layout:  ;
   --tw-contain-paint:  ;
   --tw-contain-style:  ;
+}
+
+.font-inter {
+  font-family: Inter, sans-serif;
 }
